@@ -78,6 +78,9 @@ sudo apt update
 # Install Docker CE (Community Edition)
 sudo apt install docker-ce
 
+# wait for 60 seconds
+sleep 60
+
 # Start and Enable Docker Service
 sudo systemctl start docker
 sudo systemctl enable docker
