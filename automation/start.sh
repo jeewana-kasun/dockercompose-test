@@ -123,7 +123,7 @@ echo "============================="
 # Go into new repository folder
 echo "Please enter your repo Name:"
 read repoName
-sudo git clone $repoName
+sudo cd $repoName
 
 # Run docker compose
 sudo docker compose up -d
