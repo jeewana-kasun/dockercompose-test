@@ -1,9 +1,9 @@
 services:
-  webapi:
+  web-api:
     build: .
     ports:
       - "8000:5000"
-  redisserver:
+  redis-server:
     build:
       context: ./redis
       dockerfile: Dockerfile
